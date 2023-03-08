@@ -16,7 +16,7 @@ const TrackList = () => {
         sx={{ padding: "12px", justifyContent: "center", alignItems: "center" }}
       >
         {trackList.map((track, index) => (
-          <Grid item xs={12} sm={6} md={4} lg={4} key={track.id}>
+          <Grid item xs={12} sm={5} md={4} lg={4} key={track.id}>
             <SongCards
               track={track}
               index={index}
